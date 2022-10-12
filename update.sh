@@ -1,15 +1,19 @@
 echo "[+] Updating PEDA..."
-cd ~/peda
+pushd ~/.gdbplugins/peda
 git pull
+popd
 
 echo "[+] Updating PEDA-ARM..."
-cd ~/peda-arm
+pushd ~/.gdbplugins/peda-arm
 git pull
+popd
 
 echo "[+] Updating Pwndbg..."
-cd ~/pwndbg
+pushd ~/.gdbplugins/pwndbg
 git pull
+popd
 
 echo "[+] Updating GEF..."
-cd ~/gef
+pushd ~/.gdbplugins/gef
 git pull
+popd
